@@ -15,4 +15,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/deploy','DeploymentController@deploy');
+//Route::post('/deploy','DeploymentController@deploy');
+// routes/web.php
+Route::post('/deploy', function () {
+    $path = base_path();
+    $token = 'token';
+    $json = json_decode(file_get_contents('php://input'), true);
+
+    if (empty($json['token']) || $json['token'] !== $token) {
+        exit('error request');
+    }
+
+    $cmd = "cd $path && git pull";
+    shell_exec($cmd);
+});
