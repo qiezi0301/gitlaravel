@@ -13,9 +13,9 @@ class DeploymentController extends Controller {
         $payload = file_get_contents('php://input');
         if ($this->isFromGithub($payload, $signature)) {
             foreach ($commands as $command) {
-                shell_exec($command);
+                exec($command);
             }
-            http_response_code(201);
+            http_response_code(200);
         } else {
             abort(403);
         }
