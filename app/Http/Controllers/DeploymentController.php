@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class DeploymentController extends Controller {
     public function deploy(Request $request) {
-        $commands = ['cd /var/www/gitlaravel', 'git pull'];
+        $commands = ['cd /var/www/gitlaravel', 'git pull origin master'];
         $signature = $request->header('X-Hub-Signature');
         // $headers = getallheaders(); $headers['X-Hub-Signature']
         $payload = file_get_contents('php://input');

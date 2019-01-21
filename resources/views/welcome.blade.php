@@ -86,7 +86,7 @@
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Blog</a>
-                    <a href="https://laracasts.com">Laravel 视频教程</a>
+                    <a href="https://laracasts.com">Laravel 视频</a>
                     <a href="https://laravel-news.com">Weibo</a>
                     <a href="https://blog.laravel.com">Github</a>
                 </div>
