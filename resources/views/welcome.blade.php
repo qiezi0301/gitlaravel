@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    My Name Is Laravel 为什么我的不成功
+                    My Name Is Laravel 我要成功
                 </div>
 
                 <div class="links">
