@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    搞半天原来是网络问题
+                    github webhook success
                 </div>
 
                 <div class="links">
