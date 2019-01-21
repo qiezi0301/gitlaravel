@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    github webhook success
+                    github webhook success again
                 </div>
 
                 <div class="links">
