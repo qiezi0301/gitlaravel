@@ -85,10 +85,10 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Blog</a>
+                    <a href="https://laravel.com/docs">网页特效</a>
                     <a href="https://laracasts.com">Laravel 视频</a>
-                    <a href="https://laravel-news.com">Weibo</a>
-                    <a href="https://blog.laravel.com">Github</a>
+                    <a href="https://laravel-news.com">PHP/Mysql</a>
+                    <a href="https://blog.laravel.com">网站模版</a>
                 </div>
             </div>
         </div>
